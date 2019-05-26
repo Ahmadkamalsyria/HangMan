@@ -72,7 +72,19 @@ body {
   margin-top: 50px;
   line-height: 1.2em;
 }
-
+#keyboard {
+  padding-bottom: 30px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 50px;
+  line-height: 1.2em;
+}
+.letter {
+  text-align: center;
+}
+#letter1 {
+  background-color: #008000;
+}
 .gameFooter {
   position: absolute;
   bottom: 0;
@@ -130,7 +142,12 @@ body {
   -webkit-box-shadow: 0px 0px 7px #080d1c;
   box-shadow: 0px 0px 7px #080d1c;
 }
-
+#done {
+  background: #ff145d;
+  border-bottom: 3px solid #800019;
+  -webkit-box-shadow: 0px 0px 7px #080d1c;
+  box-shadow: 0px 0px 7px #080d1c;
+}
 .wordWrap {
   position: relative;
   width: 55%;
