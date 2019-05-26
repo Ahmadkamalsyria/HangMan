@@ -151,6 +151,7 @@ function gameStart() {
       "<div class='btnWrap'><button id='done' class='btn btn-danger' autofocus>Next</button></div>";
     riddleWrap.innerHTML = "<p>Game Over</p></br>" + newBtn1;
     var done = document.querySelector("#done");
+    gameFooter.remove();
   }
   done.onclick = function() {
     console.log("hello");
